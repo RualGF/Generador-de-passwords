@@ -21,7 +21,7 @@ La API ofrece las siguientes funcionalidades:
 
 ## 🛠️ Tecnologías Utilizadas
 
--   **Python 3.x**
+-   **Python 3.13.7**
 -   **FastAPI**: Framework web de alto rendimiento para construir APIs.
 -   **Pydantic**: Biblioteca para la validación de datos y la gestión de la configuración utilizando type hints de Python.
 -   **`secrets`**: Módulo de Python para generar números aleatorios criptográficamente seguros.
@@ -53,7 +53,7 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     ```bash
     uvicorn main:app --reload
     ```
-    La API estará disponible en `http://127.0.0.1:8000`.
+    La API estará disponible en `http://127.0.0.1:8000` o en `http://localhost:8000`.
 
 5.  **Accede a la documentación interactiva**:
     Abre tu navegador y visita `http://127.0.0.1:8000/docs` para explorar los endpoints y probar la API.
@@ -119,6 +119,3 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 
 Aunque este proyecto utiliza el módulo `secrets` para la generación de contraseñas, la seguridad de cualquier sistema depende de muchos factores. **No uses este algoritmo directamente para generar contraseñas de uso personal crítico sin una revisión exhaustiva por parte de expertos en seguridad.** Este proyecto está diseñado con fines educativos y de demostración de una API.
 
----
-
-¡Espero que este `README.md` te sea de gran utilidad para tu proyecto!
