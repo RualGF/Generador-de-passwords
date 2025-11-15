@@ -12,6 +12,7 @@ Este proyecto implementa una API RESTful utilizando FastAPI para generar y verif
 [![String](https://img.shields.io/badge/string-utils-green?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/string.html)
 [![Smoke Test](https://img.shields.io/github/actions/workflow/status/RualGF/Generador-de-passwords/test.yml?branch=main&label=smoke%20test&style=flat-square)](https://github.com/RualGF/Generador-de-passwords/actions/workflows/test.yml)
 [![Tests](https://img.shields.io/github/actions/workflow/status/RualGF/Generador-de-passwords/test.yml?branch=main&label=tests&style=flat-square&color=brightgreen)](https://github.com/RualGF/Generador-de-passwords/actions)
+[![Deploy en Render](https://img.shields.io/badge/Render-Deployed-brightgreen?style=flat-square&logo=render)](https://generador-de-passwords.onrender.com/docs)
 
 ## 🚀 Características
 
@@ -80,8 +81,10 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 ├── .venv/          
 └── .github/
     └── workflows/
-        └── test.yml`
+        └── test.yml
 ```
+7. **Despliegue para prueba**:
+    Alternativamente puedes probarlo en vivo en https://generador-de-passwords.onrender.com/docs
 
 ## 🚀 Endpoints de la API
 
