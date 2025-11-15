@@ -71,7 +71,8 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 
 6. **Estructura del proyecto**:
 
-Generador-de-passwords/
+```bash
+├── Generador-de-passwords/
 ├── main.py
 ├── requirements.txt
 ├── tests/
@@ -79,7 +80,8 @@ Generador-de-passwords/
 ├── .venv/          
 └── .github/
     └── workflows/
-        └── test.yml
+        └── test.yml`
+```
 
 ## 🚀 Endpoints de la API
 
