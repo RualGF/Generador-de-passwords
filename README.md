@@ -1,6 +1,15 @@
 # Generador y Verificador de Contraseñas Seguras (API FastAPI)
 
 Este proyecto implementa una API RESTful utilizando FastAPI para generar y verificar contraseñas aleatorias que cumplen con criterios de seguridad específicos. Es una herramienta útil para entender cómo se pueden aplicar las mejores prácticas de seguridad y validación en el desarrollo de APIs con Python.
+# Generador de Passwords
+
+[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&logo=python&logoColor=yellow)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-Server-black?style=flat-square&logo=uvicorn&logoColor=white)](https://www.uvicorn.org/)
+[![Pydantic](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pydantic/pydantic/main/docs/badge/v2.json&style=flat-square)](https://pydantic.dev)
+[![Secrets](https://img.shields.io/badge/secrets-secure%20random-orange?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/secrets.html)
+[![Random](https://img.shields.io/badge/random-fallback-blue?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/random.html)
+[![String](https://img.shields.io/badge/string-utils-green?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/string.html)
 
 ## 🚀 Características
 
