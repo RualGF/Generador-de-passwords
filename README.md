@@ -10,6 +10,8 @@ Este proyecto implementa una API RESTful utilizando FastAPI para generar y verif
 [![Secrets](https://img.shields.io/badge/secrets-secure%20random-orange?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/secrets.html)
 [![Random](https://img.shields.io/badge/random-fallback-blue?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/random.html)
 [![String](https://img.shields.io/badge/string-utils-green?style=flat-square&logo=python&logoColor=white)](https://docs.python.org/3/library/string.html)
+[![Smoke Test](https://img.shields.io/github/actions/workflow/status/RualGF/Generador-de-passwords/test.yml?branch=main&label=smoke%20test&style=flat-square)](https://github.com/RualGF/Generador-de-passwords/actions/workflows/test.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/RualGF/Generador-de-passwords/test.yml?branch=main&label=tests&style=flat-square&color=brightgreen)](https://github.com/RualGF/Generador-de-passwords/actions)
 
 ## 🚀 Características
 
@@ -66,6 +68,16 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
 
 5.  **Accede a la documentación interactiva**:
     Abre tu navegador y visita `http://127.0.0.1:8000/docs` para explorar los endpoints y probar la API.
+
+6. **Estructura del proyecto**:
+Generador-de-passwords/
+├── main.py
+├── README.md
+├── tests/
+│   └── test_api.py
+└── .github/
+    └── workflows/
+        └── test.yml
 
 ## 🚀 Endpoints de la API
 

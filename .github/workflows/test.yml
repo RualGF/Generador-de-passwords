@@ -14,9 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install fastapi uvicorn pydantic
-      - name: Run app (smoke test)
+          pip install "fastapi[all]" pytest
+      - name: Run pytest
         run: |
-          uvicorn main:app --port 8000 &
-          sleep 5
-          curl -f http://localhost:8000/docs || exit 1
+          pytest tests/ -q
