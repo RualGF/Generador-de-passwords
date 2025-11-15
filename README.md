@@ -70,11 +70,13 @@ Sigue estos pasos para poner en marcha el proyecto en tu máquina local:
     Abre tu navegador y visita `http://127.0.0.1:8000/docs` para explorar los endpoints y probar la API.
 
 6. **Estructura del proyecto**:
+
 Generador-de-passwords/
 ├── main.py
-├── README.md
+├── requirements.txt
 ├── tests/
 │   └── test_api.py
+├── .venv/          
 └── .github/
     └── workflows/
         └── test.yml
